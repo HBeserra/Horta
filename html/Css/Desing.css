@@ -1,0 +1,153 @@
+
+
+.sidenav {
+	height: 100%; /* 100% Full-height */
+	width: 0; /* 0 width - change this with JavaScript */
+	position: fixed; /* Stay in place */
+	z-index: 2; /* Stay on top */
+	top: 56px;
+	left: 0;
+	background-color: #517ba0; /* Black*/
+	overflow-x: hidden; /* Disable horizontal scroll */
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+	 box-shadow: 0 0px 0px rgba(0,0,0,0.30), 0 0px 50px rgba(0,0,0,0.22);
+}
+.sidenav i{
+	padding: px 0 0 0 
+}
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #FFFFFF;
+	display: block;
+	transition: 0.3s;
+	font-family: 'Roboto', sans-serif;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+	color: #55b559;
+}
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+	.sidenav a {font-size: 18px;}
+}
+@media screen and (max-height: 450px) {
+	.sidenav a {font-size: 18px;}
+}
+.Layout_Login{
+	height: auto;
+	width: 218;
+	padding: 16px;
+	background-color: rgb(81, 123, 160); 
+}
+.Layout_Login img{
+	height: 90%;
+	width: auto;
+	margin: 0 5%;
+	border-radius: 50%
+        
+}
+            
+.Layout_Header{
+	background-color: #5782b4;   
+	padding: 8px;
+	height: 40px;
+	display: flex;
+	width: 100%;
+	box-sizing: content-box;
+	 box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	position: fixed;
+	left: auto;
+	top: auto;
+	z-index: 3;
+	}
+
+.link img:hover, .offcanvas img:focus{
+	color: #f1f1f1;
+}
+
+.usuario{
+	width: 100%;
+	padding: 0px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+
+body {
+background: #333;
+}
+/*Centering the gauge*/
+#canvas {
+	display: block;
+	width: 300px;
+	margin: 100px auto;
+	
+}
+/*Custom font for numbers*/
+@font-face {
+	font-family: "bebas";
+}
+.Layout_icone{
+    width: 25%;
+    display: inline-flex;
+	
+}
+.icone_sol svg{
+	position: relative;
+	top: -40px;
+	height: 10%
+		
+}
+#Login_Fundo{
+	z-index: 5;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(125,125,125,0.7);
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+#Login{
+	width: 480px;
+	height: 540px;
+	position: fixed;
+	top: calc(50% -  270px);
+	left: Calc(50% - 240px); 
+	background-image:url(/images/Sem%20T%C3%ADtulo-1.png)
+	
+}
+
+@media screen and (max-height: 500px) {
+	#Login{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0; 
+	
+}
+}
+
+
+#Divisao_V{
+	/*height: 90%;
+	width: 1px;
+	background-color: black;
+	position: relative;
+	top: 0;
+	left: 50%;*/
+}
+#close_login{
+	position: relative;
+	top: 10px;
+	left: 450px;
+}
+    
